@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Internal CSS -->
+    <style type="text/css">
+    /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        align-content: center;
+        vertical-align: center;
+      }
+
+      .tab1 {
+        align-items: center;
+        align-content: center;
+        vertical-align: center;
+        color: white;
+        background-color: #487799;
+        height: 100px;
+        border-radius:.25rem;
+      }
+      .tab2 {
+        color: white;
+        height: 40px;
+        border-radius:.25rem;
+        background-color: #b5ccc8;
+      }
+
+      .cour {
+        background-color: gray;
+      }
+
+    </style>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- javascript sama jQuery nya -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Header -->
+    <title>Latihan Bootstrap</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row tab1">
+        <div class="col-md-12">
+          <h1>Khas Indonesia</h1>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Button Dropdown -->
+    <div class="container">
+      <div class="row tab2">
+        <div class="btn-group col-4 c1">
+          <button type="button" class="btn btn-danger">Masakan</button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://cookpad.com/id/cari/masakan%20sunda">Masakan Sunda</a>
+            <a class="dropdown-item" href="https://cookpad.com/id/cari/masakan%20jawa">Masakan Jawa</a>
+            <a class="dropdown-item" href="https://cookpad.com/id/cari/masakan%20padang">Masakan Padang</a>
+          </div>
+        <div class="btn-group col-4 c2">
+          <button type="button" class="btn btn-success">Tarian</button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://www.ragamseni.com/9-tarian-tradisional-dari-jawa-barat-yang-harus-dipertahankan/">Tarian Sunda</a>
+            <a class="dropdown-item" href="http://www.ragamseni.com/12-tarian-tradisional-dari-jawa-tengah-yang-sangat-populer/">Tarian Jawa</a>
+            <a class="dropdown-item" href="http://www.ragamseni.com/9-tarian-tradisional-dari-sumatera-barat-yang-harus-dipertahankan/">Tarian Padang</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+          </ul>
+          <div class="carousel-inner cour">
+            <div class="carousel-item active">
+              <img src="img/1.jpg" alt="Masakan"> 
+            </div>
+            <div class="carousel-item align-middle">
+              <img src="img/2.jpg" alt="Masakan">
+            </div>
+            <div class="carousel-item">
+              <img src="img/3.jpg" alt="Masakan">  
+            </div>
+            <div class="carousel-item">
+              <img src="img/4.jpg" alt="Masakan">  
+            </div>
+            <div class="carousel-item">
+              <img src="img/5.jpg" alt="Tarian">  
+            </div>
+            <div class="carousel-item">
+              <img src="img/6.jpg" alt="Tarian">  
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Footer -->
+    <div class="card text-left">
+    <div class="card-header">
+      Apa Lagi Yaa??
+    </div>
+    <div class="card-body card text=center">
+      <h5 class="card-title">INI KHAS INDONESIA</h5>
+      <p>Kurang?? Klik dibawah</p>
+      <a href="https://www.google.com/" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      Cari Sendiri
+    </div>
+</div>
+
+  </body>
+</html>
